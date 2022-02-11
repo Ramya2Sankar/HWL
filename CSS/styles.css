@@ -1,0 +1,251 @@
+/* Title & Navigation */
+
+/* .container-fluid {
+  padding: 0 0;
+} */
+
+.title-img {
+  margin: 0 0 0 50px;
+  text-align: center;
+  height: 80px;
+  border-radius: 50%;
+  border-width: thin;
+  background-color: blue;
+}
+.logo-text {
+  font-family: stencil;
+  text-align: left;
+  /* margin: 5% 3% 5% 2%; */
+  font-size: 20px;
+  color: white;
+}
+/* navigation link */
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1d2124;
+}
+
+.nav-link:hover {
+  color: #C75067;
+}
+
+.navbar-nav li a:hover {
+  color: #C75067;
+}
+
+/* sub menu  */
+ .sub-menu1 ul li {
+  list-style: none;
+  background-color: black;
+  opacity: .8;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: inherit;
+  text-align: center;
+}
+
+.sub-menu1 ul li a {
+  text-decoration: none;
+  color: blue;
+  display: block;
+   font-weight: bold;
+}
+
+.sub-menu1 {
+  display: none;
+}
+
+.navbar ul li:hover .sub-menu1 {
+  display: block;
+  position: absolute;
+  font-weight: bolder;
+}
+
+/* landing Text */
+.landing-text{
+display:  table-cell;
+text-align:left;
+vertical-align: middle;
+
+}
+.landing-text h1{
+
+font-size: 200%;
+font-weight: 100%;
+color: black;
+
+
+}
+.landing-text p{
+
+font-size: 150%;
+font-weight: 100% ;
+color: black;
+
+}
+
+.heading-text{
+
+  display: center;
+}
+
+/* containers */
+/* Mission */
+#mission .container-fluid {
+ padding: 5% 3%;
+}
+
+#about .container-fluid {
+ padding: 5% 3%;
+}
+
+
+
+
+/* Home S#aboutection - Mission & Vision*/
+
+#mission {
+  /* background-color: #50C785; #50C7A9*/
+  background-color: gray;
+  font-family: inherit;
+  color: #fff;
+  padding: 5% 10%;
+}
+
+.home-title {
+  /* font-family: "Monserrat-Bold"; */
+  font-family: inherit;
+  font-size: 2rem;
+  text-align: left;
+  color: black;
+  margin: 0;
+}
+
+.home-text {
+  /* font-family: sans-serif; */
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: black;
+  margin: 0;
+}
+
+.home-title1 {
+  /* font-family: "Monserrat-Bold"; */
+  font-family: inherit;
+  font-size: 2rem;
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+.home-text1 {
+  /* font-family: sans-serif; */
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: white;
+  margin: 0;
+}
+
+/* About Us */
+
+
+#about {
+  /* background-color: #50C785; */
+  background-color: lightgray;
+  /* font-family: "Courgette"; */
+  /* color: #fff; */
+  padding: 5% 10%;
+}
+
+/* Core Section */
+/* .container-fluid {
+  padding: 7% 15%;
+} */
+#core-steel .container-fluid {
+  padding: 7% 15%;
+}
+#core-steel {
+  background-color: gray;
+  color: blue;
+}
+#core-piping .container-fluid {
+  padding: 7% 15%;
+}
+#core-piping {
+  background-color: lightgray;
+  color: blue;
+}
+
+#core-scaffolding .container-fluid {
+  padding: 7% 15%;
+}
+#core-scaffolding {
+  background-color: gray;
+  color: blue;
+}
+
+#core-elecIns .container-fluid {
+  padding: 7% 15%;
+}
+#core-elecIns {
+  background-color: lightgray;
+  color: blue;
+}
+
+#core-other .container-fluid {
+  padding: 7% 15%;
+}
+#core-other {
+  background-color: gray;
+  color: blue;
+}
+
+
+#contact .container-fluid {
+  padding: 7% 15%;
+}
+.steel-img {
+
+  width: 50%;
+  /* border-radius: 100%; */
+  margin: 5% 30% 5% 25%;
+  display: center;
+}
+
+.steel-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: blue;
+
+
+}
+
+.steel-sub-text {
+  font-size: 1.5rem;
+  color: black
+}
+
+/* Contact */
+#contact {
+  background-color: lightgray;
+  color: blue;
+}
+
+/* Footrer Section */
+#footer {
+  padding: 7% 15%;
+  background-color: gray;
+}
+
+
+/* #home {
+  background-color: #50C785; #50C7A9
+  background-color: gray;
+  font-family: inherit;
+  color: #fff;
+  padding: 0 0;
+} */
